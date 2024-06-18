@@ -9,14 +9,14 @@ const textoResultado = document.querySelector(".texto-resultado"); //constante t
 
 const perguntas = [ //abre uma lista de perguntas
     { //abre objeto de pergunta
-        enunciado: "Pergunta 1",
+        enunciado: "Você gosta de receber abraços?",
         alternativas: [
         { //alternativa 1
-            texto: "Sei que sei que lá",
+            texto: "Sim",
             afirmacao: "Afirmação"
         },
         { //alternativa 2
-            texto: "Ah que não sei que sei que",
+            texto: "Não",
             afirmacao: "Afirmação",
         },
     ]
