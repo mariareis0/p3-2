@@ -12,24 +12,24 @@ const perguntas = [ //abre uma lista de perguntas
         enunciado: "Você gosta de receber abraços?",
         alternativas: [
         { //alternativa 1
-            texto: "Sim",
+            texto: "SIM",
             afirmacao: "Afirmação"
         },
         { //alternativa 2
-            texto: "Não",
+            texto: "NÃO",
             afirmacao: "Afirmação",
         },
     ]
     }, //fecha objeto de pergunta
     { //abre objeto de pergunta
-        enunciado: "Pergunta 2",
+        enunciado: "Você gosta de ganhar presentes?",
         alternativas: [
         {
-            texto: "Que não sei que sei que lá",
+            texto: "SIM",
             afirmacao: "Afirmação"
         },
         {
-            texto: "Sei lá sei que",
+            texto: "NÃO",
             afirmacao: "Afirmação",
         },
     ]
