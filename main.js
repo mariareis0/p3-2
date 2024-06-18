@@ -35,7 +35,7 @@ const perguntas = [ //abre uma lista de perguntas
     ]
     }, //fecha objeto de pergunta
     { //abre objeto de pergunta
-        enunciado: "Gost de Visitas sem pressa?",
+        enunciado: "GostA de Visitas sem pressa?",
         alternativas: [
         {
             texto: "SIM",
