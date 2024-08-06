@@ -12,41 +12,185 @@ const perguntas = [ //abre uma lista de perguntas
         enunciado: "Por qual motivo você ficaria na detenção em Hogwarts?",
         alternativas: [
         { //alternativa 1
-            texto: "SIM",
-            afirmacao: "Afirmação"
+            texto: "Por bater um colega para defender um amigo",
+            afirmacao: "Grifinória"
         },
         { //alternativa 2
-            texto: "NÃO",
-            afirmacao: "Afirmação",
+            texto: "Por invadir a Seção Restrita da biblioteca",
+            afirmacao: "Corvinal",
+        },
+        { //alternativa 3
+            texto: "Por zombar seu rival",
+            afirmacao: "Sonserina",
+        },
+        { //alternativa 4
+            texto: "Por tentar explorar a Floresta Proibida",
+            afirmacao: "Lufa Lufa",
         },
     ]
     }, //fecha objeto de pergunta
     { //abre objeto de pergunta
-        enunciado: "Você gosta de ganhar presentes?",
+        enunciado: "No eu primeiro ano em Hogwarts, a que tipo de aluno você e juntaria?",
         alternativas: [
-        {
-            texto: "SIM",
-            afirmacao: "Afirmação"
+        { //alternativa 1
+            texto: "Aos mais populares",
+            afirmacao: "Grifinória"
         },
-        {
-            texto: "NÃO",
-            afirmacao: "Afirmação",
+        { //alternativa 2
+            texto: "Aos que parecem mais inteligentes",
+            afirmacao: "Corvinal",
         },
+        { //alternativa 3
+            texto: "Aos que primeiro te acolherem",
+            afirmacao: "lufa Lufa",
+        },
+        { //alternativa 4
+            texto: "Não se juntaria a ninguém, pois não preciso de ninguém",
+            afirmacao: "Sonserina",
+            },
     ]
     }, //fecha objeto de pergunta
     { //abre objeto de pergunta
-        enunciado: "GostA de Visitas sem pressa?",
+        enunciado: "Se na sua sala de aula houvesse um aluno excluído por ser diferente e tivese faltando uma pessoa para preencher eu grupo, o que você faria?",
+        alternativas:
+        { //alternativa 1
+            texto: "Teria pena e o chamaria para compor seu grupo",
+            afirmacao: "Lufa Lufa"
+        },
+        { //alternativa 2
+            texto: "Preferiria ficar com o número de pessoas reduzido.",
+            afirmacao: "Corvinal",
+        },
+        { //alternativa 3
+            texto: "Chamaria o colega, mas seria rígido durante as atividades",
+            afirmacao: "Grifinoria",
+        },
+        { //alternativa 4
+            texto: "Não chamaria e torceria",
+            afirmacao: "Sonserina",
+            },
+    ]
+    { //abre objeto de pergunta
+        enunciado: "No seu grupo de amigo, você é:",
         alternativas: [
-        {
-            texto: "SIM",
-            afirmacao: "Afirmação"
+        { //alternativa 1
+            texto: "O ssociável",
+            afirmacao: "Lufa Lufa"
         },
-        {
-            texto: "NÃO",
-            afirmacao: "Afirmação",
+        { //alternativa 2
+            texto: "O assertivo.",
+            afirmacao: "Sonserina",
         },
+        { //alternativa 3
+            texto: "O inteligente",
+            afirmacao: "Corvinal",
+        },
+        { //alternativa 4
+            texto: "O leal",
+            afirmacao: "Grifinoria",
+            },
     ]
     } //fecha objeto de pergunta
+    { //abre objeto de pergunta
+        enunciado: "Se na sua sala de aula houvesse um aluno excluído por ser diferente e tivese faltando uma pessoa para preencher eu grupo, o que você faria?",
+        alternativas: [
+        { //alternativa 1
+            texto: "Teria pena e o chamaria para compor seu grupo",
+            afirmacao: "Lufa Lufa"
+        },
+        { //alternativa 2
+            texto: "Preferiria ficar com o número de pessoas reduzido.",
+            afirmacao: "Corvinal",
+        },
+        { //alternativa 3
+            texto: "Chamaria o colega, mas seria rígido durante as atividades",
+            afirmacao: "Grifinoria",
+        },
+        { //alternativa 4
+            texto: "Não chamaria e torceria",
+            afirmacao: "Sonserina",
+            },
+    ]
+    { //abre objeto de pergunta
+        enunciado: "Você recebeu sua carta de admissão em Hogwarts. Qual a sua reação?",
+        alternativas: [
+        { //alternativa 1
+            texto: "Fica estressado",
+            afirmacao: ""
+        },
+        { //alternativa 2
+            texto: "Fica lisonjeado",
+            afirmacao: "Corvinal",
+        },
+        { //alternativa 3
+            texto: "Indiferente",
+            afirmacao: "Corvinal",
+        },
+        { //alternativa 4
+            texto: "Pula de alegria",
+            afirmacao: "Lufa-Lufa",
+            },
+    ]
+    { //abre objeto de pergunta
+        enunciado: "Você acabou de comprar seu animal de estimação, qual você ecolheu?",
+        alternativas: [
+        { //alternativa 1
+            texto: "Coruja",
+            afirmacao: "Grifinória"
+        },
+        { //alternativa 2
+            texto: "Rato",
+            afirmacao: "Corvinal",
+        },
+        { //alternativa 3
+            texto: "Gato",
+            afirmacao: "Lufa-Lufa",
+        },
+        { //alternativa 4
+            texto: "Cobra",
+            afirmacao: "Sonserina",
+            },
+    ]
+    { //abre objeto de pergunta
+        enunciado: "Você vê Harry Potter pela primeira vez, qual sua reação?",
+        alternativas: [
+        { //alternativa 1
+            texto: "Peço um autógrafo e fotos",
+            afirmacao: "Grifinoria"
+        },
+        { //alternativa 2
+            texto: "Ele tem sangue impuro, é melhor ficar longe",
+            afirmacao: "Sonserina",
+        },
+        { //alternativa 3
+            texto: "Sou tímido para falar com ele",
+            afirmacao: "",
+        },
+        { //alternativa 4
+            texto: "Fico admirada",
+            afirmacao: "Corvinal",
+            },
+    ]
+    { //abre objeto de pergunta
+        enunciado: "O que você veria no espelho Oesed?",
+        alternativas: [
+        { //alternativa 1
+            texto: "Eu rodeado de riquezas",
+            afirmacao: "Sonserina"
+        },
+        { //alternativa 2
+            texto: "Eu roddedo de amigos e família",
+            afirmacao: "Lufa-Lufa",
+        },
+        { //alternativa 3
+            texto: "Eu sabendo de tuo",
+            afirmacao: "Corvinal",
+        },
+        { //alternativa 4
+            texto: "Vivendo grandes aventuras",
+            afirmacao: "Grifinória",
+            },
+    ]
 ]; //fecha lista de pergunta
 
 //Declaração de variáveis
