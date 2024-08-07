@@ -91,7 +91,7 @@ const perguntas = [ //abre uma lista de perguntas
             afirmacao: "Grifinoria",
             },
     ]
-    } //fecha objeto de pergunta
+    }, //fecha objeto de pergunta
     { //abre objeto de pergunta
         enunciado: "Se na sua sala de aula houvesse um aluno excluído por ser diferente e tivese faltando uma pessoa para preencher eu grupo, o que você faria?",
         alternativas: [
