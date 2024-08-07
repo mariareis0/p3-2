@@ -12,7 +12,7 @@ const perguntas = [ //abre uma lista de perguntas
         enunciado: "Por qual motivo você ficaria na detenção em Hogwarts?",
         alternativas: [
         { //alternativa 1
-            texto: "Por bater um colega para defender um amigo",
+            texto: "Por bater em um colega para defender um amigo",
             afirmacao: "Grifinória"
         },
         { //alternativa 2
@@ -25,12 +25,12 @@ const perguntas = [ //abre uma lista de perguntas
         },
         { //alternativa 4
             texto: "Por tentar explorar a Floresta Proibida",
-            afirmacao: "Lufa Lufa",
+            afirmacao: "Lufa-Lufa",
         },
     ]
     }, //fecha objeto de pergunta
     { //abre objeto de pergunta
-        enunciado: "No eu primeiro ano em Hogwarts, a que tipo de aluno você e juntaria?",
+        enunciado: "No seu primeiro ano em Hogwarts, a que tipo de aluno você se juntaria?",
         alternativas: [
         { //alternativa 1
             texto: "Aos mais populares",
@@ -42,7 +42,7 @@ const perguntas = [ //abre uma lista de perguntas
         },
         { //alternativa 3
             texto: "Aos que primeiro te acolherem",
-            afirmacao: "lufa Lufa",
+            afirmacao: "Lufa-Lufa",
         },
         { //alternativa 4
             texto: "Não se juntaria a ninguém, pois não preciso de ninguém",
@@ -51,35 +51,35 @@ const perguntas = [ //abre uma lista de perguntas
     ]
     }, //fecha objeto de pergunta
     { //abre objeto de pergunta
-        enunciado: "Se na sua sala de aula houvesse um aluno excluído por ser diferente e tivese faltando uma pessoa para preencher eu grupo, o que você faria?",
+        enunciado: "Se na sua sala de aula houvesse um aluno excluído por ser diferente e tivesse faltando uma pessoa para preencher eu grupo, o que você faria?",
         alternativas:[
         { //alternativa 1
             texto: "Teria pena e o chamaria para compor seu grupo",
-            afirmacao: "Lufa Lufa"
+            afirmacao: "Lufa-Lufa"
         },
         { //alternativa 2
-            texto: "Preferiria ficar com o número de pessoas reduzido.",
+            texto: "Preferiria ficar com o número de pessoas reduzido",
             afirmacao: "Corvinal",
         },
         { //alternativa 3
             texto: "Chamaria o colega, mas seria rígido durante as atividades",
-            afirmacao: "Grifinoria",
+            afirmacao: "Grifinória",
         },
         { //alternativa 4
-            texto: "Não chamaria e torceria",
+            texto: "Não chamaria e torceria para que ninguém o chamasse",
             afirmacao: "Sonserina",
             },
     ]
     }, //fecha objeto de pergunta
     { //abre objeto de pergunta
-        enunciado: "No seu grupo de amigo, você é:",
+        enunciado: "No seu grupo de amigos, você é:",
         alternativas: [
         { //alternativa 1
-            texto: "O ssociável",
-            afirmacao: "Lufa Lufa"
+            texto: "O sociável",
+            afirmacao: "Lufa-Lufa"
         },
         { //alternativa 2
-            texto: "O assertivo.",
+            texto: "O assertivo",
             afirmacao: "Sonserina",
         },
         { //alternativa 3
@@ -88,28 +88,7 @@ const perguntas = [ //abre uma lista de perguntas
         },
         { //alternativa 4
             texto: "O leal",
-            afirmacao: "Grifinoria",
-            },
-    ]
-    }, //fecha objeto de pergunta
-    { //abre objeto de pergunta
-        enunciado: "Se na sua sala de aula houvesse um aluno excluído por ser diferente e tivese faltando uma pessoa para preencher eu grupo, o que você faria?",
-        alternativas: [
-        { //alternativa 1
-            texto: "Teria pena e o chamaria para compor seu grupo",
-            afirmacao: "Lufa Lufa"
-        },
-        { //alternativa 2
-            texto: "Preferiria ficar com o número de pessoas reduzido.",
-            afirmacao: "Corvinal",
-        },
-        { //alternativa 3
-            texto: "Chamaria o colega, mas seria rígido durante as atividades",
-            afirmacao: "Grifinoria",
-        },
-        { //alternativa 4
-            texto: "Não chamaria e torceria",
-            afirmacao: "Sonserina",
+            afirmacao: "Grifinória",
             },
     ]
     }, //fecha objeto de pergunta
@@ -118,11 +97,11 @@ const perguntas = [ //abre uma lista de perguntas
         alternativas: [
         { //alternativa 1
             texto: "Fica estressado",
-            afirmacao: ""
+            afirmacao: "Sonserina"
         },
         { //alternativa 2
             texto: "Fica lisonjeado",
-            afirmacao: "Corvinal",
+            afirmacao: "Grifinória",
         },
         { //alternativa 3
             texto: "Indiferente",
@@ -135,7 +114,7 @@ const perguntas = [ //abre uma lista de perguntas
     ]
     }, //fecha objeto de pergunta
     { //abre objeto de pergunta
-        enunciado: "Você acabou de comprar seu animal de estimação, qual você ecolheu?",
+        enunciado: "Você acabou de comprar seu animal de estimação, qual você escolheu?",
         alternativas: [
         { //alternativa 1
             texto: "Coruja",
@@ -160,7 +139,7 @@ const perguntas = [ //abre uma lista de perguntas
         alternativas: [
         { //alternativa 1
             texto: "Peço um autógrafo e fotos",
-            afirmacao: "Grifinoria"
+            afirmacao: "Grifinória"
         },
         { //alternativa 2
             texto: "Ele tem sangue impuro, é melhor ficar longe",
@@ -168,7 +147,7 @@ const perguntas = [ //abre uma lista de perguntas
         },
         { //alternativa 3
             texto: "Sou tímido para falar com ele",
-            afirmacao: "",
+            afirmacao: "Lufa-Lufa",
         },
         { //alternativa 4
             texto: "Fico admirada",
@@ -188,7 +167,7 @@ const perguntas = [ //abre uma lista de perguntas
             afirmacao: "Lufa-Lufa",
         },
         { //alternativa 3
-            texto: "Eu sabendo de tuo",
+            texto: "Eu sabendo de tudo",
             afirmacao: "Corvinal",
         },
         { //alternativa 4
@@ -236,7 +215,7 @@ function respostaSelecionada(opcaoSelecionada) {
 
 //Essa função tem como objetivo exibir a narrativa final baseada nas respostas do usuário.
 function mostraResultado() {
-    caixaPerguntas.textContent = "De acordo com suas respostas, este é seu..."; //Define o conteúdo de texto do elemento caixaPerguntas para informar o usuário sobre o resultado.
+    caixaPerguntas.textContent = "De acordo com suas respostas, sua casa é..."; //Define o conteúdo de texto do elemento caixaPerguntas para informar o usuário sobre o resultado.
     textoResultado.textContent = historiaFinal; //Define o conteúdo de texto do elemento textoResultado como a narrativa final acumulada.
     caixaAlternativas.textContent = ""; // Limpa o conteúdo do elemento caixaAlternativas.
 }
