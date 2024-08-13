@@ -1,5 +1,5 @@
 :root{ /*cria variáveis de cor*/
-    --cor-fundo: #114d15;
+    --cor-fundo: #4d1111;
     --cor-principal: #000000;
     --cor-secundaria: #212333;
     --cor-destaque: #ffffff;
@@ -14,7 +14,8 @@ body{ /*estilização no corpo da página*/
     min-height: 100vh; /*define o tamanho minimo dos elementos: 100 vw = tamanho da janela de visualização*/
 }
 .caixa-principal{ /*estilização da classe caixa-principal*/
-    background-color: var(--cor-principal);
+    
+    background-image: url(harry.jpg);
     width: 90%; /*largura dos elementos*/
     text-align: center; /*alinha o texto no centro*/
     padding: 20px; /*espaçamento interno de 20 pixels*/
