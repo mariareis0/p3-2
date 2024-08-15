@@ -1,8 +1,8 @@
 :root{ /*cria variáveis de cor*/
     --cor-fundo: #4d1111;
-    --cor-principal: #502020;
-    --cor-secundaria: #212333;
-    --cor-destaque: #ffffff;
+    --cor-principal: #3d0c0c;
+    --cor-secundaria: #d5b19b;
+    --cor-destaque: #fdcfa9;
     --cor-texto: #000000;
 }
 body{ /*estilização no corpo da página*/
