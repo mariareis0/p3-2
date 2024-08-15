@@ -6,7 +6,7 @@
     --cor-texto: #000000;
 }
 body{ /*estilização no corpo da página*/
-    background-image: url (harry.jpg);
+    background-image: url(harry.jpg);
     color: var(--cor-texto); /*cor do texto*/
     display: flex; /**/
     justify-content: center; /*ajusta os elementos no centro*/
