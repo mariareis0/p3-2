@@ -150,7 +150,7 @@ const perguntas = [ //abre uma lista de perguntas
             afirmacao: "Lufa-Lufa",
         },
         { //alternativa 4
-            texto: "Fico admirada",
+            texto: "Fico admirado",
             afirmacao: "Corvinal",
             },
     ]
@@ -163,7 +163,7 @@ const perguntas = [ //abre uma lista de perguntas
             afirmacao: "Sonserina"
         },
         { //alternativa 2
-            texto: "Eu roddedo de amigos e família",
+            texto: "Eu rodeado de amigos e família",
             afirmacao: "Lufa-Lufa",
         },
         { //alternativa 3
