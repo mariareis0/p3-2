@@ -3,7 +3,7 @@
     --cor-principal: #941b1b;
     --cor-secundaria: #fdcfa9;
     --cor-destaque: #fdcfa9;
-    --cor-texto: #000000;
+    --cor-texto: #fdcfa9;
 }
 body{ /*estilização no corpo da página*/
     background-image: url(harry.jpg);
